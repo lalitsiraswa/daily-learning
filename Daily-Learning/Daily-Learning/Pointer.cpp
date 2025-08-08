@@ -19,5 +19,19 @@ int main(int argc, const char * argv[]) {
     cout << *arrPtr << endl;
     arrPtr++;
     cout << *arrPtr << endl;
+    
+//    Pointer to Pointer
+    int x = 100;
+    int* p = &x;
+    int** pp = &p;
+    cout << &x << endl;
+    cout << p << endl;
+    
+    cout << &p << endl;
+    cout << pp << endl;
+    
+    cout << *pp << endl;
+    
+    cout << **pp << endl;
     return 0;
 }
