@@ -11,5 +11,13 @@ int main(int argc, const char * argv[]) {
     cout << "Value pointed to by ptr: " << *ptr << endl;
     *ptr = 30;
     cout << "New value of var after changing through ptr: " << var << endl;
+    
+    int arr[3] = {10, 20, 30};
+    int *arrPtr = arr;
+    cout << *arrPtr << endl;
+    arrPtr++;
+    cout << *arrPtr << endl;
+    arrPtr++;
+    cout << *arrPtr << endl;
     return 0;
 }
