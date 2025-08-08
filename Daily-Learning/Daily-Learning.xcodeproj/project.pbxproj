@@ -22,9 +22,22 @@
 		FB900D882E3CBD320042A876 /* Daily-Learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Daily-Learning"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		FB900D982E4668150042A876 /* Exceptions for "Daily-Learning" folder in "Compile Sources" phase from "Daily-Learning" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = FB900D842E3CBD320042A876 /* Sources */;
+			membershipExceptions = (
+				main,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		FB900D8A2E3CBD320042A876 /* Daily-Learning */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FB900D982E4668150042A876 /* Exceptions for "Daily-Learning" folder in "Compile Sources" phase from "Daily-Learning" target */,
+			);
 			path = "Daily-Learning";
 			sourceTree = "<group>";
 		};
