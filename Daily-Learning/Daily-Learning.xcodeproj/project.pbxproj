@@ -28,6 +28,7 @@
 			buildPhase = FB900D842E3CBD320042A876 /* Sources */;
 			membershipExceptions = (
 				main,
+				Pointer,
 			);
 		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
