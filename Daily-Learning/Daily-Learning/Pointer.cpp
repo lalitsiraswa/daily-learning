@@ -33,5 +33,11 @@ int main(int argc, const char * argv[]) {
     cout << *pp << endl;
     
     cout << **pp << endl;
+    
+//    Pointers and Arrays
+    int intArray[] = {5, 10, 15, 20};
+    cout << sizeof(intArray)/sizeof(intArray[0]) << endl;
+    int* aP = intArray; // same as &intArray[0];
+    cout << *(aP + 2) << endl;
     return 0;
 }
